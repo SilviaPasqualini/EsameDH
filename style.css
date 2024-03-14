@@ -1,0 +1,286 @@
+/* Generale */
+
+* {
+  box-sizing: border-box;
+}
+
+body  {
+  font-family: Segoe Ui;
+  font-size: 15px;
+  width: 100%;
+  margin: 0;
+}
+
+/* a */
+a {
+  color: #4d8073;
+}
+
+a:hover {
+  color: #80b3a6;
+}
+
+header {
+  margin: auto;
+}
+
+main {
+  padding: 0;
+  width: 100%;
+  text-align: justify;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* TESTI */
+.titolo {
+  font-family:Akshar; 
+  font-size: 28px;
+  padding: 15px 15px 15px 0px;
+}
+
+.sottotitolo  {
+  font-family:Akshar; 
+  font-size: 23px;
+  padding-top: 20px;
+}
+
+.sotto2 {
+  font-family:Akshar; 
+  font-size: 18px;
+  text-align: center;
+}
+
+#sugg {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#meta_item {
+  padding-top: 71px;
+}
+
+#card_item {
+    padding-top: 5px;
+}
+
+#item_t {
+  padding-bottom: 11px;
+
+}
+
+#img_item {
+    padding-top: 0px;
+}
+
+
+#cat {
+  text-align: center;
+}
+
+/*NAVBAR*/
+#navbar {
+  font-size: 15px;
+}
+
+
+/*FOOTER*/
+.footer {
+  text-align: justify;
+  background-color: #f0f2f4;
+  padding:20px 40px 20px 40px;
+}
+.copy {
+  text-align: center;
+  background-color: #d2d9df;
+  padding:20px 40px 20px 40px;
+}
+
+
+
+/* BREADCRUMBS */
+.breadcrumb-item active {
+  text-decoration: bold;
+}
+
+
+
+video {
+  width: 100%;
+  height: auto;
+  object-fit: contain ;
+}
+
+#video {
+  padding: 0px;
+}
+
+#siti {
+  padding-right: 5px;
+  align-items: center;
+}
+
+/*INDEX*/
+
+.descrizione {
+  padding:40px 100px 40px 100px;
+  background-color:#e1eaea;
+}
+
+.esplorazione {
+  padding:40px 100px 40px 100px;
+}
+
+/*Accordion*/
+#button1 {
+  background-color: #e1eaea;
+}
+#button2 {
+  background-color: #c3d5d5;
+}
+#button3 {
+  background-color: #96b6b6;
+}
+#button4 {
+  background-color: #78a1a1;
+}
+.accordion-button {
+  font-family: Akshar;
+  font-size: 20px;
+  display: block;
+  border-color: white;
+  border-radius: 5px;
+  color: black;
+  margin-top: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*Galleria ultimi item inseriti*/
+.new {
+  padding:40px 100px 40px 100px;
+}
+
+.gallery {
+  border: 2px solid #e1eaea;
+  padding:10px 10px 10px 10px
+}
+.gallery:hover {
+  border: 5px solid #e1eaea;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+.desc {
+  padding: 15px 15px 0px 15px;
+  text-align: center;
+}
+.btn {
+  background-color: #c3d5d5;
+  margin: 10px 15px 0px 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*COLLEZIONE*/
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-family:Akshar; 
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.meta {
+  padding: 10px;
+  background-color: #e1eaea;
+  border-color: whitesmoke;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Colonna destra*/
+
+
+/*ITEM*/
+.altro {
+  margin-left: 30px;
+  width: 220px;
+  height:300px;  
+  border: 10px solid whitesmoke;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+
+.meta_opera {
+  margin-top: 30px;
+  padding: 5px;
+  width: 450px;
+  height:410px;  
+  border: 10px solid whitesmoke;
+  border-radius: 15px;
+  background-color: whitesmoke;
+}
+
+.desc_opera {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+
+
+
+.TEI {
+  margin: 30px;
+  padding: 15px;
+  width: 1400px;
+  height:580px;  
+  border-radius: 15px;
+  background-color: #e1eaea;
+}
